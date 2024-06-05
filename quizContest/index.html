@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="sec1">
+        <img src="./q1.svg" alt="" />
+        <div class="div1">
+          <a href="">How it works?</a>
+          <a href="">Features</a>
+          <a href="">About us</a>
+          <button class="btn1">Login</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="sec2">
+        <div class="div2">
+          <h1>
+            Learn <br />
+            new concepts <br />
+            for each question
+          </h1>
+          <p>We help you prepare for exams and quizes</p>
+          <button class="btn2">Start Solving</button>
+        </div>
+        <div class="div3">
+          <img src="./q2.svg" alt="" />
+        </div>
+      </section>
+      <section class="sec3">
+        <div class="div4">
+          <span class="close">&times;</span>
+          <div>
+            <h1>Choose your favorite topics</h1>
+            <p>Select more than 3 topics to start quiz</p>
+          </div>
+          <div id="div5">
+            <div class="topic">
+              <span>General Knowledge</span>
+              <span>&times;</span>
+            </div>
+            <div class="topic">
+              <span>Economy</span>
+              <span>&times;</span>
+            </div>
+            <div class="topic">
+              <span>Resoning</span>
+              <span>&times;</span>
+            </div>
+            <div class="topic">
+              <span>Aptitude</span>
+              <span>&times;</span>
+            </div>
+            <div class="topic">
+              <span>Sports</span>
+              <span>&times;</span>
+            </div>
+            <div class="topic">
+              <span>Chemistry</span>
+              <span>&times;</span>
+            </div>
+          </div>
+          <button class="btn3">Start Quiz</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="sec4" style="display: none;">
+        <div class="question"></div>
+        <form action="">
+            <input type="radio" name="option" id="A" />
+            <label for="A">A</label>
+            <input type="radio" name="option" id="B" />
+            <label for="B">B</label>
+            <input type="radio" name="option" id="C" />
+            <label for="C">C</label>
+            <input type="radio" name="option" id="D" />
+            <label for="D">D</label>
+        </form>
+        <div class="buttons">
+          <button onclick="previ()">Prev</button>
+          <button onclick="next()">Next</button>
+        </div>
+      </section>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
