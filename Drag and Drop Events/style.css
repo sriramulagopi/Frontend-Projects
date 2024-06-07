@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.container>div{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    gap:5px;
+}
+.container>div>div{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    width: 99%;
+    height: 80px;
+    font-weight: 600;
+    background-color: rgb(169, 169, 203);
+    border-radius: 10px;
+}
+.container>div,button,input{
+    padding: 5px 3px;
+}
